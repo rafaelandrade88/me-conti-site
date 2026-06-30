@@ -164,6 +164,22 @@ body {
   border: 1px solid var(--surface-border);
 }
 
+/* Header fixo: opacidade alta por padrão para garantir contraste
+   mesmo em navegadores/dispositivos sem suporte a backdrop-filter
+   (GPU fraca, economia de bateria, "reduzir transparência" no SO). */
+.header-glass {
+  background: rgba(5, 6, 8, 0.92);
+  border-bottom: 1px solid var(--surface-border);
+}
+
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .header-glass {
+    background: rgba(5, 6, 8, 0.78);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+  }
+}
+
 /* Scrollbar discreta */
 ::-webkit-scrollbar {
   width: 10px;

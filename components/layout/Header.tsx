@@ -49,7 +49,7 @@ export function Header() {
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-300",
         isScrolled
-          ? "glass shadow-[0_4px_30px_-10px_rgba(0,0,0,0.5)]"
+          ? "header-glass shadow-[0_4px_30px_-10px_rgba(0,0,0,0.5)]"
           : "bg-transparent border-b border-transparent"
       )}
     >
@@ -61,6 +61,7 @@ export function Header() {
             width={170}
             height={42}
             priority
+            loading="eager"
             className="h-9 w-auto sm:h-10"
           />
         </Link>
