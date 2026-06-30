@@ -24,9 +24,9 @@ export const journeySteps: JourneyStep[] = [
   },
   {
     id: 3,
-    title: "Recebimento da 1ª mensalidade",
+    title: "Envio do 1º boleto",
     description:
-      "Confirmação do pagamento inicial para darmos início formal aos trabalhos contábeis e societários.",
+      "Enviamos o primeiro boleto, com vencimento apenas no mês seguinte. O processo de onboarding segue normalmente, sem depender desse pagamento.",
     icon: "CircleDollarSign",
   },
   {
@@ -38,10 +38,10 @@ export const journeySteps: JourneyStep[] = [
   },
   {
     id: 5,
-    title: "Envio de acessos (senhas diversas)",
+    title: "Compartilhamento de acessos a sistemas",
     description:
-      "Você recebe, de forma organizada e segura, todas as credenciais e acessos relevantes ao seu negócio.",
-    icon: "Lock",
+      "Você compartilha conosco as credenciais de acesso aos sistemas de emissão de notas, para que tanto você quanto nossa equipe possam acompanhar todas as notas fiscais emitidas.",
+    icon: "FileKey2",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ export const journeySteps: JourneyStep[] = [
     id: 8,
     title: "Reunião de Onboard",
     description:
-      "Um encontro consultivo para entender a fundo o seu negócio e desenhar a melhor estratégia tributária.",
+      "Orientamos os sócios sobre as responsabilidades e cuidados que devem ter à frente de uma empresa, e sobre os documentos que precisarão nos enviar mensalmente.",
     icon: "Users",
   },
   {

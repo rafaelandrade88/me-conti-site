@@ -46,7 +46,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center gap-8 max-w-4xl mx-auto">
           <span className="font-mono text-xs tracking-[0.2em] uppercase text-brand px-4 py-1.5 rounded-full glass animate-fade-in">
-            Contabilidade digital para prestadores de serviço
+            Me Conti | Contabilidade Digital para vencedores
           </span>
 
           <h1 className="font-display font-semibold text-4xl sm:text-6xl lg:text-7xl leading-[1.05] tracking-tight text-foreground animate-fade-up">

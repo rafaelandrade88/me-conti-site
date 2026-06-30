@@ -8,8 +8,8 @@ export function Specialties() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Para quem"
-          title="Especialistas em quem presta serviço"
-          description="Conhecemos as particularidades fiscais e societárias de cada uma dessas atividades."
+          title="Atendemos diversos níveis de empresas, desde o PJ ou MEI até empresas que faturam milhões"
+          description="E para aumentar a qualidade de nosso trabalho, nos especializamos em alguns segmentos, que são:"
           className="mb-14"
         />
 
